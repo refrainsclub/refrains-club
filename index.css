@@ -1,0 +1,39 @@
+body {
+  background-color: #c9d6ff; /* periwinkle blue */
+  font-family: "Montserrat", "montserrat", "Source Sans", "Helvetica Neue",
+    Helvetica, "Arial Black", Arial, sans-serif;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+section {
+  margin: 80px 120px;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+h1 {
+  font-size: 120px;
+  font-weight: 700;
+  margin: 0;
+}
+
+@media (max-width: 710px) {
+  main {
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+}
